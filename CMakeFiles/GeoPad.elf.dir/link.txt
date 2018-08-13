@@ -1,0 +1,1 @@
+/usr/bin/gcc  -Wall -g  -rdynamic CMakeFiles/GeoPad.elf.dir/src/geo_generation.c.o CMakeFiles/GeoPad.elf.dir/src/geo_obj_op.c.o CMakeFiles/GeoPad.elf.dir/src/geo_point.c.o CMakeFiles/GeoPad.elf.dir/src/geo_register.c.o CMakeFiles/GeoPad.elf.dir/src/geo_test_code.c.o CMakeFiles/GeoPad.elf.dir/src/main.c.o CMakeFiles/GeoPad.elf.dir/src/shell.c.o  -o GeoPad.elf -lm 

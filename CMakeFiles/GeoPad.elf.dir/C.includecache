@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/libreliu/code/GeometryPad/src/geo.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+
+/home/libreliu/code/GeometryPad/src/geo_generation.c
+geo.h
+/home/libreliu/code/GeometryPad/src/geo.h
+
+/home/libreliu/code/GeometryPad/src/geo_obj_op.c
+geo.h
+/home/libreliu/code/GeometryPad/src/geo.h
+
+/home/libreliu/code/GeometryPad/src/geo_point.c
+geo.h
+/home/libreliu/code/GeometryPad/src/geo.h
+
+/home/libreliu/code/GeometryPad/src/geo_register.c
+geo.h
+/home/libreliu/code/GeometryPad/src/geo.h
+
+/home/libreliu/code/GeometryPad/src/geo_test_code.c
+geo.h
+/home/libreliu/code/GeometryPad/src/geo.h
+
+/home/libreliu/code/GeometryPad/src/main.c
+geo.h
+/home/libreliu/code/GeometryPad/src/geo.h
+
+/home/libreliu/code/GeometryPad/src/shell.c
+geo.h
+/home/libreliu/code/GeometryPad/src/geo.h
+

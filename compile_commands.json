@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/libreliu/code/GeometryPad",
+  "command": "/usr/bin/gcc    -Wall -g   -o CMakeFiles/GeoPad.elf.dir/src/geo_generation.c.o   -c /home/libreliu/code/GeometryPad/src/geo_generation.c",
+  "file": "/home/libreliu/code/GeometryPad/src/geo_generation.c"
+},
+{
+  "directory": "/home/libreliu/code/GeometryPad",
+  "command": "/usr/bin/gcc    -Wall -g   -o CMakeFiles/GeoPad.elf.dir/src/geo_obj_op.c.o   -c /home/libreliu/code/GeometryPad/src/geo_obj_op.c",
+  "file": "/home/libreliu/code/GeometryPad/src/geo_obj_op.c"
+},
+{
+  "directory": "/home/libreliu/code/GeometryPad",
+  "command": "/usr/bin/gcc    -Wall -g   -o CMakeFiles/GeoPad.elf.dir/src/geo_point.c.o   -c /home/libreliu/code/GeometryPad/src/geo_point.c",
+  "file": "/home/libreliu/code/GeometryPad/src/geo_point.c"
+},
+{
+  "directory": "/home/libreliu/code/GeometryPad",
+  "command": "/usr/bin/gcc    -Wall -g   -o CMakeFiles/GeoPad.elf.dir/src/geo_register.c.o   -c /home/libreliu/code/GeometryPad/src/geo_register.c",
+  "file": "/home/libreliu/code/GeometryPad/src/geo_register.c"
+},
+{
+  "directory": "/home/libreliu/code/GeometryPad",
+  "command": "/usr/bin/gcc    -Wall -g   -o CMakeFiles/GeoPad.elf.dir/src/geo_test_code.c.o   -c /home/libreliu/code/GeometryPad/src/geo_test_code.c",
+  "file": "/home/libreliu/code/GeometryPad/src/geo_test_code.c"
+},
+{
+  "directory": "/home/libreliu/code/GeometryPad",
+  "command": "/usr/bin/gcc    -Wall -g   -o CMakeFiles/GeoPad.elf.dir/src/main.c.o   -c /home/libreliu/code/GeometryPad/src/main.c",
+  "file": "/home/libreliu/code/GeometryPad/src/main.c"
+},
+{
+  "directory": "/home/libreliu/code/GeometryPad",
+  "command": "/usr/bin/gcc    -Wall -g   -o CMakeFiles/GeoPad.elf.dir/src/shell.c.o   -c /home/libreliu/code/GeometryPad/src/shell.c",
+  "file": "/home/libreliu/code/GeometryPad/src/shell.c"
+}
+]

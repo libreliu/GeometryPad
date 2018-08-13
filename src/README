@@ -1,0 +1,18 @@
+1. SAFE STRNCPY - (man strcpy)
+
+	strncpy(obj.name, name, GEO_OBJ_NAME_SPACE);
+	obj.name[GEO_OBJ_NAME_SPACE - 1] = '\0'; 
+
+关于解耦合设计的一些思考
+  现在，需要解耦合的部分：
+    1. geo_gen -> 各种模块
+	Example: int geo_point_gen_midpoint(geo_plate *p, geo_attr *g, geo_dep *d) 
+
+    Solution: int geo_reg_gen( char gen, geo_gen_t func)
+	int (*geo_gen_t)(geo_plate *p, geo_attr *g, geo_dep *d);
+
+    2. geo_obj_print -> geo_reg_print_obj
+        Example: geo_point_print(buf, maxsize, attr);
+
+    Solution: int geo_reg_objprint( char type, geo_printattr_t func);
+	typedef void (*geo_printattr_t)(char *buf, size_t maxsize, geo_attr *attr);

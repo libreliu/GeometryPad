@@ -1,0 +1,3 @@
+/home/libreliu/code/GeometryPad/CMakeFiles/rebuild_cache.dir
+/home/libreliu/code/GeometryPad/CMakeFiles/GeoPad.elf.dir
+/home/libreliu/code/GeometryPad/CMakeFiles/edit_cache.dir
